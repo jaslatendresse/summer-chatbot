@@ -326,8 +326,3 @@ import pandas as pd
 
 pd_reader = pd.read_csv('my_file.csv')
 ```
-
-
-
-
-
