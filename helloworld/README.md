@@ -1,6 +1,10 @@
 # Hello, World! 
 In this section, you will learn the basics of Python such as creating a Python script, writing Python code, and executing Python code. 
 
+I will be following the tutorial from [W3Schools](https://www.w3schools.com/python/), but I will only include what I think is relevant to this chatbot project!
+
+<hr>
+
 1. Create a "helloworld" project folder on your computer and open it in Visual Studio. 
 2. Open a terminal window in 
 3. In the folder, create a "helloworld.py" file
