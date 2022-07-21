@@ -94,6 +94,27 @@ File > Open > project directory > project
 
 ![Capture d’écran, le 2022-07-20 à 17 35 57](https://user-images.githubusercontent.com/17911957/180086437-1382325c-071a-4ba1-a725-0f5b2ef1adc2.png)
 
- 
+Once your project is open, open a new Terminal window. This Terminal is linked to your GitHub repository. 
 
+![Capture d’écran, le 2022-07-20 à 17 42 47](https://user-images.githubusercontent.com/17911957/180087413-0202d954-3ef2-4146-b346-26a8ef69e465.png)
+
+## Committing changes
+
+When you bring changes to your project, you want to save them to your repository. 
+
+1. Save the files you brought your changes to
+2. In the Terminal enter the following commands:
+    
+    a. `git add .` --> this will add all changed files to your commit
+    
+    b. `git commit -m "a descriptive commit message"` --> this will create your commit
+    
+    c. `git push` --> this will push the changes to your repository
+
+## Pulling changes
+
+This is when some changes were made to your repository (either by you, or another collaborator) and you need to keep your local repository up-to-date with the one that is hosted on GitHub.
+
+Simply run `git pull`
+    
 
