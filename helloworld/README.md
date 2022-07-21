@@ -185,3 +185,129 @@ else:
 
 You can see the use of if-else as a condition flow. We first start by evaluating the `if` statement. If the condition is met, the program stops. If the condition is not met, it moves on to the next statement (`elif` in the example above). Finally, the `else` statement is used to catch anything that isn't caught by the preceding conditions. 
 
+## Python loops
+
+**For loops**
+`for` loops are used to iterate over a sequence (list, tuple, dictionary, set, or string). 
+
+```
+fruits = ['apple', 'banana', 'orange']
+for x in fruits:
+    print(x)
+
+>>> apple
+>>> banana
+>>> orange
+```
+
+You can also loop through a string:
+```
+for x in 'apple'
+    print(x)
+
+>>> a
+>>> p
+>>> p 
+>>> l
+>>> e
+```
+
+You can use conditional statements within loops:
+
+```
+fruits = ['apple', 'banana', 'orange']
+for x in fruits:
+    if x == 'apple'
+        print(x)
+>>> apple
+```
+
+You can also `break` out of a `for` loop. This means that you can stop the loop before it has looped through all the times:
+
+```
+fruits = ['apple', 'banana', 'orange']
+for x in fruits:
+    print(x)
+    if x == 'banana'
+        break
+>>> apple
+```
+
+The outcome of this code block will be different from the previous one: 
+
+```
+fruits = ['apple', 'banana', 'orange']
+for x in fruits:
+    if x == 'orange'
+        break
+    print(x)
+>>> apple
+>>> banana
+```
+
+You can use the `continue` statement to stop the current iteration of the loop and move to the next one: 
+```
+fruits = ['apple', 'banana', 'orange']
+for x in fruits:
+    if x == 'banana'
+        continue
+    print(x)
+>>> apple
+>>> orange
+```
+
+## Python functions
+
+A function is a block of code that will execute only when it is called. You can create a function using the `def` keyword.
+
+```
+def my_function():
+    print('Hello, World! This is from my function.')
+
+my_function()
+>>> Hello, World! This is from my function.
+```
+
+You can also pass arguments to your function.
+
+```
+def my_function(my_argument):
+    print(my_argument)
+
+my_function('Hello')
+>>> Hello
+    
+```
+
+You can have your function return a result:
+
+```
+def add(a, b):
+    return a + b
+
+add(1, 1)
+>>> 2
+```
+
+## Using external libraries in Python
+
+Coding is fun, but it can sometimes be tedious. This is why there exist libraries that provide functionalities for you to use in your code. 
+
+To use an external library, you first need to install it with the `pip` command. Then, you can safely import it in your code and use its functionalities. 
+
+Let's see an example with `pandas`, a useful library to analyze data. 
+
+`pip3 install pandas` 
+
+```
+#You can give a custom name to the library to make it easier to use in your code. In our case, we will use pd instead of pandas.
+import pandas as pd
+
+#Next, we will use pandas to read a csv file into a dataframe, a special data structure provided by pandas. 
+pd_reader = pd.read_csv('my_file.csv')
+```
+
+
+
+
+
