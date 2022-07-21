@@ -217,7 +217,7 @@ You can use conditional statements within loops:
 ```
 fruits = ['apple', 'banana', 'orange']
 for x in fruits:
-    if x == 'apple'
+    if x == 'apple':
         print(x)
 >>> apple
 ```
@@ -228,7 +228,7 @@ You can also `break` out of a `for` loop. This means that you can stop the loop 
 fruits = ['apple', 'banana', 'orange']
 for x in fruits:
     print(x)
-    if x == 'banana'
+    if x == 'banana':
         break
 >>> apple
 ```
@@ -238,7 +238,7 @@ The outcome of this code block will be different from the previous one:
 ```
 fruits = ['apple', 'banana', 'orange']
 for x in fruits:
-    if x == 'orange'
+    if x == 'orange':
         break
     print(x)
 >>> apple
@@ -255,6 +255,22 @@ for x in fruits:
 >>> apple
 >>> orange
 ```
+
+**While loops**
+The `while` loop is a look that will execute a set of statements as long as a condition is true. 
+
+```
+i = 1
+while i < 4:
+    print(i)
+    i += 1
+>>> 1
+>>> 2
+>>> 3
+```
+
+Just like the `for` loop, you can use `break` statement and `continue` statement in the `while` loop.
+
 
 ## Python functions
 
@@ -276,7 +292,6 @@ def my_function(my_argument):
 
 my_function('Hello')
 >>> Hello
-    
 ```
 
 You can have your function return a result:
