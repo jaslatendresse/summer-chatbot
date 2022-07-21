@@ -145,5 +145,43 @@ print(x + ' ' + y)
 Programming is logic-based meaning you often need to check if an expression is `True` or `False`. Thus, a boolean is a binary value that is either `True` or `False`.
 
 ```
+print(1 > 0)
+>>> True
+
+print(1 == 2)
+>>> False
+
+print(1 < 2)
+>>> True
+```
+
+## Python if-else statements
+
+Now that we have just seen booleans, we can use them in conditional statements. 
 
 ```
+a = 2
+b = 3
+
+if a < b:
+    print('b is greater than a')
+else:
+    print('b is not greather than a')
+```
+
+You can also verify multiple conditions with `elif` (else if):
+
+```
+a = 2
+b = 3
+
+if a < b:
+    print('b is greater than a')
+elif a == b:
+    print('a is equal to b')
+else:
+    print('b is not greather than a')
+```
+
+You can see the use of if-else as a condition flow. We first start by evaluating the `if` statement. If the condition is met, the program stops. If the condition is not met, it moves on to the next statement (`elif` in the example above). Finally, the `else` statement is used to catch anything that isn't caught by the preceding conditions. 
+
