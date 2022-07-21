@@ -315,10 +315,15 @@ Let's see an example with `pandas`, a useful library to analyze data.
 `pip3 install pandas` 
 
 ```
-#You can give a custom name to the library to make it easier to use in your code. In our case, we will use pd instead of pandas.
+"""
+You can give a custom name to the library to make it easier to use in your code.
+In our case, we will use pd instead of pandas.
+"""
+
 import pandas as pd
 
 #Next, we will use pandas to read a csv file into a dataframe, a special data structure provided by pandas. 
+
 pd_reader = pd.read_csv('my_file.csv')
 ```
 
