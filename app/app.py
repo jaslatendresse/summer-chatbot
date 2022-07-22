@@ -28,6 +28,7 @@ math_talk_1 = ['pythagorean theorem', 'a squared plus b squared equals to c squa
 math_talk_2 = ['law of cosines', 'c**2 = a**2 + b**2 - 2 * a * b * cos(gamma)']
 
 list_trainer = ListTrainer(my_bot)
+
 for item in (small_talk, math_talk_1, math_talk_2):
     list_trainer.train(item)
 
@@ -39,7 +40,6 @@ def home():
 def get_bot_response():
     userText = request.args.get('msg')
     return str(my_bot.get_response(userText))
- 
  
 if __name__ == "__main__":
     app.run(port=8000, debug=True)
