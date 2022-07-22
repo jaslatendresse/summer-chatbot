@@ -139,9 +139,9 @@ where to take the input, send it, and after this, receive a response. Right now,
 
 **`style.css`**
 Using the id's and tags from our `index.html` code, we can change their style, colour, and position through CSS. The basic styling can be found in
-[the css file](https://github.com/jaslatendresse/summer-chatbot/new/main/app_1/static/style.css)
+[the css file](https://github.com/jaslatendresse/summer-chatbot/blob/main/app_1/static/style.css). Our app now looks like this:
 
-
+<img width="695" alt="Capture d’écran, le 2022-07-22 à 13 09 27" src="https://user-images.githubusercontent.com/17911957/180489904-602379b9-f5f6-475e-b6d0-4e4f03533b36.png">
 
 
 
