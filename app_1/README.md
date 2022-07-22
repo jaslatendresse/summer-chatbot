@@ -340,4 +340,5 @@ corpus_trainer = ChatterBotCorpusTrainer(my_bot)
 corpus_trainer.train('chatterbot.corpus.english')
 ```
 
+[Additional resource](https://chatterbot.readthedocs.io/en/stable/training.html)
 
