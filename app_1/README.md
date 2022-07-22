@@ -327,6 +327,17 @@ We can now run our chatbot with `python3 app/app.py`:
 
 <img width="635" alt="Capture d’écran, le 2022-07-22 à 16 54 33" src="https://user-images.githubusercontent.com/17911957/180567146-44deddab-6899-45b5-a7c8-c093597bd086.png">
 
+## Conclusion
 
+It is important to know that your bot may not know how to answer all of our questions since its knowledge and training is still limited. To train it further you have to give it time and provide more training data. 
+
+To train it further, you can use an existing corpus of data provided by the bot itself: 
+
+```
+from chatterbot.trainers import ChatterBotCorpusTrainer
+
+corpus_trainer = ChatterBotCorpusTrainer(my_bot)
+corpus_trainer.train('chatterbot.corpus.english')
+```
 
 
