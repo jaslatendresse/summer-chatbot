@@ -1,4 +1,4 @@
-# Chatbot with Flash and Chatterbot
+# Chatbot with Flask and Chatterbot
 
 In this example, I combine two tutorials: [Edureka](https://www.edureka.co/blog/how-to-make-a-chatbot-in-python/) and [Upgrad](https://www.upgrad.com/blog/how-to-make-chatbot-in-python/).
 
